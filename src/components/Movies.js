@@ -5,9 +5,10 @@ const Movies = () => {
   return (
     <div>
         {/*{code here}*/}
+        <h1>Movies Page</h1>
         {movies.map(movie =>{
           return (
-            <h1>Movies Page</h1>
+            
             <div>
             <h2>movies.title
           )
