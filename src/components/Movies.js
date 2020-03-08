@@ -8,9 +8,11 @@ const Movies = () => {
         <h1>Movies Page</h1>
         {movies.map(movie =>{
           return (
-            
             <div>
-            <h2>movies.title
+            <h2>{movie.title}</h2>
+            <p>{movie.time}</p>
+            
+            </div>
           )
         })
         
